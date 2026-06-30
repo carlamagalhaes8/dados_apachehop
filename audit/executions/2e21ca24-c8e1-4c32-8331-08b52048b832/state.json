@@ -1,0 +1,59 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "2e21ca24-c8e1-4c32-8331-08b52048b832",
+  "name" : "Dados_Pesquisador_b",
+  "copyNr" : null,
+  "loggingText" : "2026/06/22 09:46:02 - Dados_Pesquisador_b - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\n2026/06/22 09:46:02 - Dados_Pesquisador_b - Execution started for pipeline [Dados_Pesquisador_b]\n2026/06/22 09:46:03 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)\n2026/06/22 09:46:03 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)\n2026/06/22 09:46:03 - Insert / update.0 - ERROR: Error in transform, asking everyone to stop because of:\n2026/06/22 09:46:03 - Insert / update.0 - ERROR: org.apache.hop.core.exception.HopDatabaseException: \n2026/06/22 09:46:03 - Insert / update.0 - Error looking up row in database\n2026/06/22 09:46:03 - Insert / update.0 - ERROR: column \"idcnpq\" does not exist\n2026/06/22 09:46:03 - Insert / update.0 -   Position: 8\n2026/06/22 09:46:03 - Insert / update.0 - \n2026/06/22 09:46:03 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2864)\n2026/06/22 09:46:03 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2841)\n2026/06/22 09:46:03 - Insert / update.0 - \tat org.apache.hop.core.database.Database.getLookup(Database.java:2836)\n2026/06/22 09:46:03 - Insert / update.0 - \tat org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.lookupValues(InsertUpdate.java:86)\n2026/06/22 09:46:03 - Insert / update.0 - \tat org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.processRow(InsertUpdate.java:322)\n2026/06/22 09:46:03 - Insert / update.0 - \tat org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)\n2026/06/22 09:46:03 - Insert / update.0 - \tat java.base/java.lang.Thread.run(Thread.java:840)\n2026/06/22 09:46:03 - Insert / update.0 - Caused by: org.postgresql.util.PSQLException: ERROR: column \"idcnpq\" does not exist\n2026/06/22 09:46:03 - Insert / update.0 -   Position: 8\n2026/06/22 09:46:03 - Insert / update.0 - \tat org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(Que",
+  "lastLogLineNr" : 35,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 1,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1782132363340,
+  "childIds" : [ "db99991e-20b3-4c7a-a2b5-b055ea695fa7", "2fd1a3bd-5b09-43fb-867c-13cd70cc30d5", "03509b23-14c5-417c-aece-0834aa94bc38" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1782132363245,
+  "containerId" : "0c05fcbd-af78-4036-a145-f599451849c0"
+}

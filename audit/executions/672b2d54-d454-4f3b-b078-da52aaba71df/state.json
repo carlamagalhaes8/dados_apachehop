@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "1b6f322b-4fa0-4725-8837-aa36d7274176",
+  "id" : "672b2d54-d454-4f3b-b078-da52aaba71df",
+  "name" : "Sort rows pesquisadores",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1782138025867,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1782138025057,
+  "containerId" : "1e3c129c-204c-42f9-94be-6cfc16f58c99"
+}

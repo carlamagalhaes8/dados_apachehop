@@ -1,0 +1,16 @@
+{
+  "name" : "Microsoft Excel writer",
+  "filename" : null,
+  "id" : "fbca2ed9-be92-4968-9423-1a1c46ba8014",
+  "parentId" : "2fc2d973-5d53-4e4a-ac01-30d5d25a2478",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1782135089275,
+  "executionStartDate" : 1782135088917,
+  "copyNr" : "0"
+}

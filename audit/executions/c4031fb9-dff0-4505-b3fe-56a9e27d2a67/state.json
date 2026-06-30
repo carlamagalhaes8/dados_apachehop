@@ -1,0 +1,17 @@
+{
+  "executionType" : "Workflow",
+  "parentId" : null,
+  "id" : "c4031fb9-dff0-4505-b3fe-56a9e27d2a67",
+  "name" : "workflow",
+  "copyNr" : null,
+  "loggingText" : "2026/06/22 17:49:52 - workflow - Start of workflow execution\n2026/06/22 17:49:52 - workflow - Starting action [Start]\n2026/06/22 17:49:52 - workflow - Finished action [Start] (result=[true])\n2026/06/22 17:49:52 - workflow - Starting action [Dados_Pesquisadores_Varios.hpl]\n2026/06/22 17:49:52 - Dados_Pesquisadores_Varios.hpl - Using run configuration [local]\n2026/06/22 17:49:53 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\n2026/06/22 17:49:53 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]\n2026/06/22 17:49:54 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\n2026/06/22 17:49:54 - Table input pesquisadores.0 - Finished reading query, closing connection.\n2026/06/22 17:49:54 - Sort rows pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\n2026/06/22 17:49:54 - Table input pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)\n2026/06/22 17:49:54 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)\n2026/06/22 17:49:52 - workflow - Start of workflow execution\n2026/06/22 17:49:52 - workflow - Starting action [Start]\n2026/06/22 17:49:52 - workflow - Finished action [Start] (result=[true])\n2026/06/22 17:49:52 - workflow - Starting action [Dados_Pesquisadores_Varios.hpl]\n2026/06/22 17:49:52 - Dados_Pesquisadores_Varios.hpl - Using run configuration [local]\n2026/06/22 17:49:53 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\n2026/06/22 17:49:53 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]\n2026/06/22 17:49:54 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\n2026/06/22 17:49:54 - Table input pesquisadores.0 - Finished reading query, closing connection.\n2026/06/22 17:49:54 - Sort rows pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\n20",
+  "lastLogLineNr" : 52,
+  "metrics" : [ ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1782161397976,
+  "childIds" : [ "58e9ad29-7e70-4f59-84f0-532a2b9da396", "e27acb43-626d-42a2-b1c6-3e6c5801a9d2", "ba8ec35b-4ef6-48dc-aaff-8981949a3f8e" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1782161397930,
+  "containerId" : null
+}

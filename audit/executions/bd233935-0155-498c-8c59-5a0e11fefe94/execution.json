@@ -1,0 +1,16 @@
+{
+  "name" : "Select values",
+  "filename" : null,
+  "id" : "bd233935-0155-498c-8c59-5a0e11fefe94",
+  "parentId" : "117a8499-4e14-49b8-996e-afcce7cb3d1e",
+  "executionType" : "Transform",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1782161393858,
+  "executionStartDate" : 1782161393018,
+  "copyNr" : "0"
+}

@@ -1,0 +1,59 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "df5053b2-2ae2-45f3-ba23-3becdc39345b",
+  "name" : "Dados_Pesquisador_b",
+  "copyNr" : null,
+  "loggingText" : "2026/06/22 09:58:01 - Dados_Pesquisador_b - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\n2026/06/22 09:58:01 - Dados_Pesquisador_b - Execution started for pipeline [Dados_Pesquisador_b]\n2026/06/22 09:58:02 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)\n2026/06/22 09:58:02 - Insert / update.0 - ERROR: Unexpected error\n2026/06/22 09:58:02 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)\n2026/06/22 09:58:02 - Insert / update.0 - ERROR: org.apache.hop.core.exception.HopTransformException: \n2026/06/22 09:58:02 - Insert / update.0 - Field [nomeCompleto] is required and couldn't be found!\n2026/06/22 09:58:02 - Insert / update.0 - \n2026/06/22 09:58:02 - Insert / update.0 - \tat org.apache.hop.pipeline.transforms.insertupdate.InsertUpdate.processRow(InsertUpdate.java:273)\n2026/06/22 09:58:02 - Insert / update.0 - \tat org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)\n2026/06/22 09:58:02 - Insert / update.0 - \tat java.base/java.lang.Thread.run(Thread.java:840)\n2026/06/22 09:58:02 - Insert / update.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)\n2026/06/22 09:58:02 - Dados_Pesquisador_b - Pipeline duration : 0.569 seconds [  0.569\" ]\n",
+  "lastLogLineNr" : 67,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 1,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1782133082501,
+  "childIds" : [ "50c3ce69-c1b6-4eb2-8207-fe58ab06a851", "4088eb5c-7dab-467b-a721-1f45b98165e3", "46031062-e4b4-44c7-88cf-ff774a9fdf1c" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1782133082468,
+  "containerId" : "eecdeb28-f252-4007-a268-0b8f40c8dad7"
+}

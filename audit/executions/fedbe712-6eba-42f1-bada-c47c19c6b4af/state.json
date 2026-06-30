@@ -1,0 +1,129 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "fedbe712-6eba-42f1-bada-c47c19c6b4af",
+  "name" : "Dados_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2026/06/22 11:25:28 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\n2026/06/22 11:25:28 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]\n2026/06/22 11:25:28 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\n2026/06/22 11:25:28 - Table input pesquisadores.0 - Finished reading query, closing connection.\n2026/06/22 11:25:28 - Sort rows pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\n2026/06/22 11:25:28 - Table input pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)\n2026/06/22 11:25:28 - Select values.0 - ERROR: Couldn't find field 'ISSN' in row!\n2026/06/22 11:25:28 - Get data from XML.0 - Finished processing (I=19, O=0, R=1, W=18, U=0, E=0)\n2026/06/22 11:25:28 - Merge join.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=0)\n2026/06/22 11:25:28 - Select values.0 - ERROR: Unexpected error\n2026/06/22 11:25:28 - Select values.0 - ERROR: java.lang.NullPointerException: Cannot load from object array because \"rowData\" is null\n2026/06/22 11:25:28 - Select values.0 - \tat org.apache.hop.pipeline.transforms.selectvalues.SelectValues.metadataValues(SelectValues.java:374)\n2026/06/22 11:25:28 - Select values.0 - \tat org.apache.hop.pipeline.transforms.selectvalues.SelectValues.processRow(SelectValues.java:429)\n2026/06/22 11:25:28 - Select values.0 - \tat org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)\n2026/06/22 11:25:28 - Select values.0 - \tat java.base/java.lang.Thread.run(Thread.java:840)\n2026/06/22 11:25:28 - Select values.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)\n2026/06/22 11:25:28 - Dados_Pesquisadores_Varios - Pipeline duration : 0.794 seconds [  0.794\" ]\n",
+  "lastLogLineNr" : 216,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 17,
+      "Errors" : 0,
+      "Input" : 19,
+      "Written" : 18,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 1
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 1,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 17
+    }
+  }, {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 1,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows producoes",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Merge join",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 1
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Sort rows pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 1,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Table input pesquisadores",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished (with errors)",
+  "updateTime" : 1782138328906,
+  "childIds" : [ "32157daa-3b7b-49b1-a5fd-bd9183f50c64", "96e6260d-cdc3-4744-8152-bd3292afa5fb", "9b984570-7bd3-4529-af82-2f54f7c0b729", "1fed2f45-7d65-4835-af92-daee114751bb", "8f46923e-876f-472b-a842-bd48e3d97dc2", "fbb55e81-a51a-4044-a22f-fa84d10a9b2b", "2147d927-a708-48ff-9acd-f6b0fde35349", "03741e80-4707-41cf-a519-a862c6aeec5a" ],
+  "details" : { },
+  "failed" : true,
+  "executionEndDate" : 1782138328886,
+  "containerId" : "7406b393-0eeb-4e9c-aba1-7f25ce02bad6"
+}

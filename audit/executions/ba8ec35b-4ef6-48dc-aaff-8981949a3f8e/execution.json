@@ -1,0 +1,16 @@
+{
+  "name" : "Dados_Producoes_Pesquisadores_Varios.hpl",
+  "filename" : null,
+  "id" : "ba8ec35b-4ef6-48dc-aaff-8981949a3f8e",
+  "parentId" : "c4031fb9-dff0-4505-b3fe-56a9e27d2a67",
+  "executionType" : "Action",
+  "executorXml" : null,
+  "metadataJson" : null,
+  "runConfigurationName" : null,
+  "logLevel" : "BASIC",
+  "parameterValues" : { },
+  "environmentDetails" : { },
+  "registrationDate" : 1782161395549,
+  "executionStartDate" : 1782161395549,
+  "copyNr" : null
+}

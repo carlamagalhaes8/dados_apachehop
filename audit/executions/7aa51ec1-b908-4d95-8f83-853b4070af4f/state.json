@@ -1,0 +1,17 @@
+{
+  "executionType" : "Transform",
+  "parentId" : "bc2c1eb7-99fb-410c-ae94-09e1f69007a1",
+  "id" : "7aa51ec1-b908-4d95-8f83-853b4070af4f",
+  "name" : "Microsoft Excel writer",
+  "copyNr" : "0",
+  "loggingText" : null,
+  "lastLogLineNr" : null,
+  "metrics" : [ ],
+  "statusDescription" : "Stopped",
+  "updateTime" : 1782134772549,
+  "childIds" : [ ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1782134772404,
+  "containerId" : "5fec7e25-258e-46fe-bba2-a88fc7ce6d34"
+}

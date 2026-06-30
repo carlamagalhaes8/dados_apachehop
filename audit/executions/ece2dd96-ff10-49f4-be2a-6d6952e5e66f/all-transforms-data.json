@@ -1,0 +1,47 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1782131570881,
+  "parentId" : "ece2dd96-ff10-49f4-be2a-6d6952e5e66f",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "10f4f1b0-e940-4bb4-990b-699ccd1a108a",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "LastOutput/Get data from XML.0" : {
+      "setKey" : "LastOutput/Get data from XML.0",
+      "logChannelId" : "f107cd78-c95f-4537-9fbf-d33b2d5c9139",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get data from XML.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "10f4f1b0-e940-4bb4-990b-699ccd1a108a",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "FirstOutput/Get data from XML.0" : {
+      "setKey" : "FirstOutput/Get data from XML.0",
+      "logChannelId" : "f107cd78-c95f-4537-9fbf-d33b2d5c9139",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get data from XML.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/+2SXQsBURCGh1AuFLcU5w/4Wtm9plAiF5typ2nP0Kn94Owcfx+rvVhxhZTy1ty8nZl3ztMAQAHqC4x5ZfhguOuSTx6LE/qG4k4PAPJpJSop6YWH4znV1ancNaTmUxUpbK/d3J2xXbvJjFFAWnnYHV9nBZDJK4RRQJm02oxYSGQUOx0FYrNcfCrx9qpqO33bsoZD27EtZ2ANErM1kQa1jMQSQ0O+kCSmmhRjLOaR3hM0M/ge9ntAWPaRmeKtkl/510+RbEyV/l/i6/xaWX7/U3wD5QVqGUfPGAUAAA=="
+}

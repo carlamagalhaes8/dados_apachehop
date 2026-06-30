@@ -1,0 +1,32 @@
+2026/06/22 10:21:22 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/06/22 10:21:22 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]
+2026/06/22 10:21:25 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/06/22 10:21:25 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - Could not delete stale file [file:///home/carlamagalhaes/Downloads/hop]!
+2026/06/22 10:21:25 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - ERROR: Error opening new file
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - ERROR: org.apache.hop.core.exception.HopException: 
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - Could not delete stale file file:///home/carlamagalhaes/Downloads/hop
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransform.prepareNextOutputFile(ExcelWriterTransform.java:838)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransform.processRow(ExcelWriterTransform.java:157)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at java.base/java.lang.Thread.run(Thread.java:840)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - ERROR: Unexpected error
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - ERROR: org.apache.hop.core.exception.HopException: 
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - Error opening new file
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - Could not delete stale file file:///home/carlamagalhaes/Downloads/hop
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransform.prepareNextOutputFile(ExcelWriterTransform.java:1064)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransform.processRow(ExcelWriterTransform.java:157)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at org.apache.hop.pipeline.transform.RunThread.run(RunThread.java:54)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at java.base/java.lang.Thread.run(Thread.java:840)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - Caused by: org.apache.hop.core.exception.HopException: 
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - Could not delete stale file file:///home/carlamagalhaes/Downloads/hop
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	at org.apache.hop.pipeline.transforms.excelwriter.ExcelWriterTransform.prepareNextOutputFile(ExcelWriterTransform.java:838)
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - 	... 3 more
+2026/06/22 10:21:25 - Microsoft Excel writer.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2026/06/22 10:21:25 - Dados_Pesquisadores_Varios - Pipeline duration : 2.74 seconds [  2.740" ]

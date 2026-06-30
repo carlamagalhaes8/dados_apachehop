@@ -1,0 +1,87 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : "ba8ec35b-4ef6-48dc-aaff-8981949a3f8e",
+  "id" : "aa2420cf-c072-4e72-a54d-d18b78196578",
+  "name" : "Dados_Producoes_Pesquisadores_Varios",
+  "copyNr" : null,
+  "loggingText" : "2026/06/22 17:49:55 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\n2026/06/22 17:49:55 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]\n2026/06/22 17:49:57 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)\n2026/06/22 17:49:57 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)\n2026/06/22 17:49:57 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)\n2026/06/22 17:49:57 - Insert / update.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)\n2026/06/22 17:49:57 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 2.09 seconds [  2.090\" ]\n",
+  "lastLogLineNr" : 48,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Get file names",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Insert / update",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 2,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 2,
+      "Written" : 2,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Microsoft Excel writer",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 0,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1782161397840,
+  "childIds" : [ "a6bc983d-520c-449f-b87e-39a11bd79e30", "8c3f1066-7ca5-450a-bd91-88cf66988b2c", "251cc69f-2730-4e1f-8cb0-5cecfa89d2c8", "8b2ec209-3667-4169-8fff-6953d94c5bde", "b7e3cb80-10c7-4507-ab5e-250224d6cd8d" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1782161397820,
+  "containerId" : null
+}

@@ -1,0 +1,101 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1782135089879,
+  "parentId" : "2fc2d973-5d53-4e4a-ac01-30d5d25a2478",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "57429a75-b028-48b1-b6cc-ade2bf430e96",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "FirstOutput/Get data from XML.0" : {
+      "setKey" : "FirstOutput/Get data from XML.0",
+      "logChannelId" : "52729f53-3b4d-4295-b3d8-d8cd089e93de",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get data from XML.0"
+    },
+    "LastOutput/Microsoft Excel writer.0" : {
+      "setKey" : "LastOutput/Microsoft Excel writer.0",
+      "logChannelId" : "fbca2ed9-be92-4968-9423-1a1c46ba8014",
+      "name" : "Microsoft Excel writer",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Microsoft Excel writer.0"
+    },
+    "FirstOutput/Get file names.0" : {
+      "setKey" : "FirstOutput/Get file names.0",
+      "logChannelId" : "023b82ec-695c-4d50-8d58-08aeaa64edb0",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get file names.0"
+    },
+    "LastOutput/Get data from XML.0" : {
+      "setKey" : "LastOutput/Get data from XML.0",
+      "logChannelId" : "52729f53-3b4d-4295-b3d8-d8cd089e93de",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get data from XML.0"
+    },
+    "LastOutput/Insert / update.0" : {
+      "setKey" : "LastOutput/Insert / update.0",
+      "logChannelId" : "45e9269c-3d81-4477-b1b8-61011e613daf",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Insert / update.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "57429a75-b028-48b1-b6cc-ade2bf430e96",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "LastOutput/Get file names.0" : {
+      "setKey" : "LastOutput/Get file names.0",
+      "logChannelId" : "023b82ec-695c-4d50-8d58-08aeaa64edb0",
+      "name" : "Get file names",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get file names.0"
+    },
+    "FirstOutput/Insert / update.0" : {
+      "setKey" : "FirstOutput/Insert / update.0",
+      "logChannelId" : "45e9269c-3d81-4477-b1b8-61011e613daf",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Insert / update.0"
+    },
+    "FirstOutput/Microsoft Excel writer.0" : {
+      "setKey" : "FirstOutput/Microsoft Excel writer.0",
+      "logChannelId" : "fbca2ed9-be92-4968-9423-1a1c46ba8014",
+      "name" : "Microsoft Excel writer",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Microsoft Excel writer.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/+2aW2/TMBTHU9bBKGwMiRfYYEbbI6vbjqYDnrh0XLQJRDVpQkiT15y2Rklc2Q4rPPLMZ+BjIPGI+ErwDHaajaysQhuJudlSk9SX/ONzovh3TuI4Tsm5tE6EfBzJfiRxC3xoS/SS+BGIcsVxnBPJT5fTPpESxDb1viZFVZ6/DxJ5RBLU4SxAWxvrScOhZRLC5c1W4UDF9mZLHUzfDoDTNsF31DUETkq2GLIAzCnOuo2qW6vV627DrTVWaiu6cqHpRYR7DG2QMAIfeYDWOFBJBHrEeBfigdUbrlt1G5VqfbVWb1RWdeXFB1GXoRbZIegJqBGcoLv6RII5C2uU71v+hznF1j+XMsNUh/oQkkBpFT4nM57Rw3Q90g0iZaTCNb0p6/FPl37F+jOix7jc/j3ixT6RPcOS8lXf0CyLSZeTMKBCpk9tQHSKih71PAjNypao4EA8suODWeEzVOxyKsGc8kTSZdZXD9iAebRDwZM0MCQ/mXQpCvoaUk/IQyRV7dlFVSq3luNdFvL7iwYMJISCMkM32p7uRMSpWcVTnDFpXPX/WJSf4Z7Sw23CfRKQLvF7BAS+x3ZDnxFPqNY+brOwQ7u4z9kLBTECDw2D9UUJkHgQ+Hh0hS6rSn36C+MampnoxgbTt4Gjp1wYbt+9/9i5Ppz9zIe3ejeRdCW6602M853z1J6K/nNUdsnOJaO0te+ScQ25uuTT8zdDl5SufsnPJeOmdtAlx+LQxRTNb9A2V87qSNQctFXneP3jMVgOy/wogX5/VMW9ph2LnxY/LX5a/Dy6vMXPfx8/LZXlS2UWsXJErCspUrLZN4s/RnHA4o/FH4s/WSra7Nsfn32zHJJpqic7x1gAzygtOp9iyoehAC4RRlFf6YJ9m57v2/S5dC7TfsdwrJT+8Zw1NxJI2SSyjaLMiNooykZRNorKUvHvTSLb4GJMcGFjhBxjhMtp6rTErzfGuHMpbfuffevwDfllkmbrLAAA"
+}

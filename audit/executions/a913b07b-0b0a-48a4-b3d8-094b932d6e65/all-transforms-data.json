@@ -1,0 +1,65 @@
+{
+  "executionType" : "Transform",
+  "dataSetMeta" : null,
+  "finished" : true,
+  "collectionDate" : 1782133211978,
+  "parentId" : "a913b07b-0b0a-48a4-b3d8-094b932d6e65",
+  "ownerId" : "all-transforms",
+  "setMetaData" : {
+    "LastOutput/Select values.0" : {
+      "setKey" : "LastOutput/Select values.0",
+      "logChannelId" : "a623737b-38e2-4699-af98-4e3ea57c4fc5",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Select values.0"
+    },
+    "LastOutput/Get data from XML.0" : {
+      "setKey" : "LastOutput/Get data from XML.0",
+      "logChannelId" : "cd9cdf49-47aa-4043-9b47-53e011397632",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Get data from XML.0"
+    },
+    "LastOutput/Insert / update.0" : {
+      "setKey" : "LastOutput/Insert / update.0",
+      "logChannelId" : "41ac75d1-a414-4094-ab82-de045907aa32",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "Last rows of Insert / update.0"
+    },
+    "FirstOutput/Select values.0" : {
+      "setKey" : "FirstOutput/Select values.0",
+      "logChannelId" : "a623737b-38e2-4699-af98-4e3ea57c4fc5",
+      "name" : "Select values",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Select values.0"
+    },
+    "FirstOutput/Get data from XML.0" : {
+      "setKey" : "FirstOutput/Get data from XML.0",
+      "logChannelId" : "cd9cdf49-47aa-4043-9b47-53e011397632",
+      "name" : "Get data from XML",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Get data from XML.0"
+    },
+    "FirstOutput/Insert / update.0" : {
+      "setKey" : "FirstOutput/Insert / update.0",
+      "logChannelId" : "41ac75d1-a414-4094-ab82-de045907aa32",
+      "name" : "Insert / update",
+      "fieldName" : null,
+      "sampleDescription" : null,
+      "copyNr" : "0",
+      "description" : "First rows of Insert / update.0"
+    }
+  },
+  "rowsBinaryGzipBase64Encoded" : "H4sIAAAAAAAA/+2TT0vDQBDFR6kFD0J7rdXOF7BpU5qcFWxRWjyEQm9hyE5LIH/K7qxfX1PJYUUvteBpHywMbwfm8YMHAF0YrMjIm5WDlSDhgjPBdyosm/EEAC7bd9R1QSJs0lx9tGrM/pIFFQnhTtclbter9uNXXXH1sEkuvhnpJmmGm8eSdZ5R8NRkKME526nqkv/l4tdWL4qnURjO51EchfEsnB3N0bOypFWNa6osF6gYF5pzIYOvtd4z3DsUf+TzJE8gOXRIvlSGtWCA9tDEZM/xBI63i1z7Yp+NceRi9M0+B+Wdi9JX+88gPwEemT60twcAAA=="
+}

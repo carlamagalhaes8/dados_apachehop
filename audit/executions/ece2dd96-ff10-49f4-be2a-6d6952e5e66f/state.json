@@ -1,0 +1,45 @@
+{
+  "executionType" : "Pipeline",
+  "parentId" : null,
+  "id" : "ece2dd96-ff10-49f4-be2a-6d6952e5e66f",
+  "name" : "Dados_Pesquisador_b",
+  "copyNr" : null,
+  "loggingText" : "2026/06/22 09:32:48 - Dados_Pesquisador_b - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'\n2026/06/22 09:32:48 - Dados_Pesquisador_b - Execution started for pipeline [Dados_Pesquisador_b]\n2026/06/22 09:32:50 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)\n2026/06/22 09:32:50 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)\n2026/06/22 09:32:50 - Dados_Pesquisador_b - Pipeline duration : 2.508 seconds [  2.508\" ]\n",
+  "lastLogLineNr" : 11,
+  "metrics" : [ {
+    "componentName" : "Get data from XML",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 0,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 1,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  }, {
+    "componentName" : "Select values",
+    "componentCopy" : "0",
+    "metrics" : {
+      "Read" : 1,
+      "Buffers Output" : 0,
+      "Errors" : 0,
+      "Input" : 0,
+      "Written" : 1,
+      "Updated" : 0,
+      "Output" : 0,
+      "Rejected" : 0,
+      "Buffers Input" : 0
+    }
+  } ],
+  "statusDescription" : "Finished",
+  "updateTime" : 1782131570823,
+  "childIds" : [ "f107cd78-c95f-4537-9fbf-d33b2d5c9139", "10f4f1b0-e940-4bb4-990b-699ccd1a108a" ],
+  "details" : { },
+  "failed" : false,
+  "executionEndDate" : 1782131570709,
+  "containerId" : "60872cc5-abcf-4465-82c1-72f63e2bc13c"
+}

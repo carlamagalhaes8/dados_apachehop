@@ -1,0 +1,43 @@
+2026/06/22 17:49:52 - workflow - Start of workflow execution
+2026/06/22 17:49:52 - workflow - Starting action [Start]
+2026/06/22 17:49:52 - workflow - Finished action [Start] (result=[true])
+2026/06/22 17:49:52 - workflow - Starting action [Dados_Pesquisadores_Varios.hpl]
+2026/06/22 17:49:52 - Dados_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/06/22 17:49:53 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/06/22 17:49:53 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]
+2026/06/22 17:49:54 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/06/22 17:49:54 - Table input pesquisadores.0 - Finished reading query, closing connection.
+2026/06/22 17:49:54 - Sort rows pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/06/22 17:49:54 - Table input pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2026/06/22 17:49:54 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/06/22 17:49:52 - workflow - Start of workflow execution
+2026/06/22 17:49:52 - workflow - Starting action [Start]
+2026/06/22 17:49:52 - workflow - Finished action [Start] (result=[true])
+2026/06/22 17:49:52 - workflow - Starting action [Dados_Pesquisadores_Varios.hpl]
+2026/06/22 17:49:52 - Dados_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/06/22 17:49:53 - Dados_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/06/22 17:49:53 - Dados_Pesquisadores_Varios - Execution started for pipeline [Dados_Pesquisadores_Varios]
+2026/06/22 17:49:54 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/06/22 17:49:54 - Table input pesquisadores.0 - Finished reading query, closing connection.
+2026/06/22 17:49:54 - Sort rows pesquisadores.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/06/22 17:49:54 - Table input pesquisadores.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2026/06/22 17:49:54 - Get data from XML.0 - Finished processing (I=118, O=0, R=2, W=118, U=0, E=0)
+2026/06/22 17:49:54 - Sort rows producoes.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/06/22 17:49:54 - Select values.0 - Finished processing (I=0, O=0, R=118, W=118, U=0, E=0)
+2026/06/22 17:49:54 - Merge join.0 - Finished processing (I=0, O=0, R=120, W=118, U=0, E=0)
+2026/06/22 17:49:55 - Insert / update.0 - Finished processing (I=118, O=0, R=118, W=118, U=91, E=0)
+2026/06/22 17:49:55 - Dados_Pesquisadores_Varios - Pipeline duration : 2.224 seconds [  2.224" ]
+2026/06/22 17:49:55 - Dados_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/06/22 17:49:55 - workflow - Finished action [Dados_Pesquisadores_Varios.hpl] (result=[true])
+2026/06/22 17:49:55 - workflow - Starting action [Dados_Producoes_Pesquisadores_Varios.hpl]
+2026/06/22 17:49:55 - Dados_Producoes_Pesquisadores_Varios.hpl - Using run configuration [local]
+2026/06/22 17:49:55 - Dados_Producoes_Pesquisadores_Varios - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2026/06/22 17:49:55 - Dados_Producoes_Pesquisadores_Varios - Execution started for pipeline [Dados_Producoes_Pesquisadores_Varios]
+2026/06/22 17:49:57 - Get file names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2026/06/22 17:49:57 - Get data from XML.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/06/22 17:49:57 - Select values.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2026/06/22 17:49:57 - Insert / update.0 - Finished processing (I=2, O=0, R=2, W=2, U=0, E=0)
+2026/06/22 17:49:57 - Dados_Producoes_Pesquisadores_Varios - Pipeline duration : 2.09 seconds [  2.090" ]
+2026/06/22 17:49:57 - Dados_Producoes_Pesquisadores_Varios - Execution finished on a local pipeline engine with run configuration 'local'
+2026/06/22 17:49:57 - workflow - Finished action [Dados_Producoes_Pesquisadores_Varios.hpl] (result=[true])
+2026/06/22 17:49:57 - workflow - Workflow execution finished
